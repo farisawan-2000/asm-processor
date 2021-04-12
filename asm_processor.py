@@ -386,7 +386,7 @@ class GlobalState:
         self.late_rodata_hex = 0xE0123456
         self.namectr = 0
         self.min_instr_count = min_instr_count
-        self.skip_instr_count = skip_instr_count
+        self.skip_instr_count = skip_instr_count + 1
         self.use_jtbl_for_rodata = use_jtbl_for_rodata
 
     def next_late_rodata_hex(self):
